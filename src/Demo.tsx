@@ -25,10 +25,14 @@ export function Demo() {
           <select
             value={formId}
             onChange={handleFormIdOptionChange}
-            className='focus:shadow-outline prose prose-sm block w-full appearance-none rounded rounded-full border border-gray-200 bg-white px-4 py-2 pr-8 leading-tight hover:border-gray-400 focus:outline-none'
+            className='focus:shadow-outline prose prose-sm block h-12 w-full appearance-none rounded rounded-full border border-gray-200 bg-white px-4 py-2 pr-8 leading-tight hover:border-gray-400 focus:outline-none'
           >
             {themeOptions.map((formOption) => (
-              <option key={formOption.value} value={formOption.value}>
+              <option
+                disabled={formOption.value === formId}
+                key={formOption.value}
+                value={formOption.value}
+              >
                 {formOption.label}
               </option>
             ))}
