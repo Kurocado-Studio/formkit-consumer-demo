@@ -88,8 +88,8 @@ importers:
         specifier: ^16.2.6
         version: 16.2.6
       loader-utils:
-        specifier: 3.2.1
-        version: 3.2.1
+        specifier: 3.3.1
+        version: 3.3.1
       postcss:
         specifier: ^8.5.3
         version: 8.5.6
@@ -4235,8 +4235,8 @@ packages:
     resolution: {integrity: sha512-Kx8hMakjX03tiGTLAIdJ+lL0htKnXjEZN6hk/tozf/WOuYGdZBJrZ+rCJRbVCugsjB3jMLn9746NsQIf5VjBMw==}
     engines: {node: '>=4'}
 
-  loader-utils@3.2.1:
-    resolution: {integrity: sha512-ZvFw1KWS3GVyYBYb7qkmRM/WwL2TQQBxgCK62rlvm4WpVQ23Nb4tYjApUlfjrEGvOs7KHEsmyUn75OHZrJMWPw==}
+  loader-utils@3.3.1:
+    resolution: {integrity: sha512-FMJTLMXfCLMLfJxcX9PFqX5qD88Z5MRGaZCVzfuqeZSPsyiBzs+pahDQjbIWz2QIzPZz0NX9Zy4FX3lmK6YHIg==}
     engines: {node: '>= 12.13.0'}
 
   local-pkg@1.1.2:
@@ -10772,7 +10772,7 @@ snapshots:
 
   generic-names@4.0.0:
     dependencies:
-      loader-utils: 3.2.1
+      loader-utils: 3.3.1
 
   gensync@1.0.0-beta.2: {}
 
@@ -11427,7 +11427,7 @@ snapshots:
       pify: 3.0.0
       strip-bom: 3.0.0
 
-  loader-utils@3.2.1: {}
+  loader-utils@3.3.1: {}
 
   local-pkg@1.1.2:
     dependencies:
