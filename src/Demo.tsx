@@ -14,8 +14,13 @@ export function Demo() {
   return (
     <Card className='mx-auto max-w-screen-sm'>
       <Card.Header>
-        <h1>Hello CodeSandbox</h1>
-        <h2>Start editing to see some magic happen!</h2>
+        <h1 className={'mb-2'}>
+          <strong>FormKit Consumer Demo</strong>
+        </h1>
+        <h2 className={'mb-2'}>
+          This demo shows how FormKit renders forms, allowing end-users to
+          interact with them and submit their responses.
+        </h2>
         <FormSelector
           currentFormId={formId}
           availableFormOptions={themeOptions}
