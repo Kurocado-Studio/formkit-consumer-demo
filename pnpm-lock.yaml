@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.0-develop.1
         version: 1.0.0-develop.1
       '@kurocado-studio/formkit-ui-react-renderer':
-        specifier: 1.0.0-develop.7
-        version: 1.0.0-develop.7(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
+        specifier: 1.0.0-develop.8
+        version: 1.0.0-develop.8(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
       '@kurocado-studio/systemhaus-motion-react':
         specifier: 1.0.0-develop.9
         version: 1.0.0-develop.9(@emotion/is-prop-valid@1.4.0)(react-dom@19.0.0(react@19.0.0))
@@ -709,8 +709,8 @@ packages:
   '@kurocado-studio/formkit-ui-models@1.0.0-develop.1':
     resolution: {integrity: sha512-i+XisxBp4f6e6YRbuFOVj1YQIlk7nJbvJ+w1mf0fwf/ARDrliUibhJiSnx009+SvybZVdZI5p/WqBpuDJsVzZA==}
 
-  '@kurocado-studio/formkit-ui-react-renderer@1.0.0-develop.7':
-    resolution: {integrity: sha512-ri4BvAqoJBlDP7ZnKr/ss9V6gIm/4YogohaJmjLmAxl3di1RCTDY3v2QKQpp2UikHmoicTFDJLsWy62QWSWd5Q==}
+  '@kurocado-studio/formkit-ui-react-renderer@1.0.0-develop.8':
+    resolution: {integrity: sha512-Kx8amCMTkZmdUeG82FJIgKmROom0DXNrSa/B+hNqrF9Gq+XqCUfZzv3xBgcfUgoQKO76Cot8QfzYTEUWdc85EA==}
 
   '@kurocado-studio/styleguide@2.6.0-develop.10':
     resolution: {integrity: sha512-1Jx81ozwrh9wKxpHUA1Ox+8mH8eLaK8PkPjpafeNUiPgkNmqkjvQhkFkRgpDOE8l177omGL4J7GF0pKwP0M4vQ==}
@@ -771,8 +771,8 @@ packages:
   '@kurocado-studio/systemhaus-react@1.1.0-develop.13':
     resolution: {integrity: sha512-yg97SMUiSbltJqNnyR6ajDxvwv0dxlXfBViIOtOjX+Cpx2+RDOxveZh78voKLPpoA8y+dcWNA1agofR6P+cSYg==}
 
-  '@kurocado-studio/web-forms-react@1.1.0-develop.1':
-    resolution: {integrity: sha512-RwOF308V99R2y6xL2BAxv5piCcRWz79Dj0HqIHC0R/geyrcSwn/NlKF3oCgPq9llF7b/QsRIqN7DC78BlduR+g==}
+  '@kurocado-studio/web-forms-react@1.1.0-develop.2':
+    resolution: {integrity: sha512-FH6o+JxEH5XmfnQkt3ni+5rpubFwpQ/pUG5XMLqDltL00aJ9he+aBdlonyA8/gVWyxuJ7/o1mfueMhFpRSnmpQ==}
     peerDependencies:
       react: 19.0.0
       react-dom: 19.0.0
@@ -6998,11 +6998,11 @@ snapshots:
     dependencies:
       uuid: 13.0.0
 
-  '@kurocado-studio/formkit-ui-react-renderer@1.0.0-develop.7(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)':
+  '@kurocado-studio/formkit-ui-react-renderer@1.0.0-develop.8(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)':
     dependencies:
       '@kurocado-studio/axios-react': 1.0.2(typescript@5.9.3)
       '@kurocado-studio/systemhaus-react': 1.1.0-develop.12(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
-      '@kurocado-studio/web-forms-react': 1.1.0-develop.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@kurocado-studio/web-forms-react': 1.1.0-develop.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       axios: 1.13.2
       lodash-es: 4.17.21
       react: 19.0.0
@@ -7110,7 +7110,7 @@ snapshots:
       - tailwindcss
       - typescript
 
-  '@kurocado-studio/web-forms-react@1.1.0-develop.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@kurocado-studio/web-forms-react@1.1.0-develop.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@conform-to/dom': 1.13.3
       '@conform-to/react': 1.13.3(react@19.0.0)

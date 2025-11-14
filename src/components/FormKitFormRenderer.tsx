@@ -4,11 +4,9 @@ import {
   type Question,
   VariantEnum,
   formRendererComposer,
-  // eslint-disable-next-line import/named
-  useAriaTextField as useFormKitTextNode,
+  useFormKitTextNode,
 } from '@kurocado-studio/formkit-ui-react-renderer';
 import { Input } from '@kurocado-studio/systemhaus-react';
-import { get } from 'lodash-es';
 import React from 'react';
 
 import { KUROCADO_STUDIO_ORGANIZATION_ID_FORMKIT } from '../config/constants';
@@ -39,12 +37,10 @@ export function MyFormKitRenderer(properties: {
 function UsingMyDesignSystem(properties: {
   question: Question;
 }): React.ReactNode {
-  const { question, variant, variants } = properties.question;
-
-  const name = get(variants, [variant, 'id'], 'unknown');
+  const { question } = properties;
 
   const { labelProps, inputProps, descriptionProps, errorMessageProps } =
-    useFormKitTextNode({ label: question, name });
+    useFormKitTextNode({ question });
 
   return (
     <>
