@@ -18,8 +18,8 @@ importers:
         specifier: 1.0.0-develop.2
         version: 1.0.0-develop.2
       '@kurocado-studio/formkit-ui-react-renderer':
-        specifier: 1.0.0-develop.8
-        version: 1.0.0-develop.8(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
+        specifier: 1.0.0
+        version: 1.0.0(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
       '@kurocado-studio/systemhaus-motion-react':
         specifier: 1.0.0-develop.10
         version: 1.0.0-develop.10(@emotion/is-prop-valid@1.4.0)(react-dom@19.0.0(react@19.0.0))
@@ -725,8 +725,8 @@ packages:
   '@kurocado-studio/formkit-ui-models@1.0.0-develop.2':
     resolution: {integrity: sha512-px0UC51nLRR5dTvlXZzQOFSVZL46PzmQWN5Wji+4sQJ4NwkMxXgVHvScGrCWg82+9oKnqCkSK5j6g2VidJnHQg==}
 
-  '@kurocado-studio/formkit-ui-react-renderer@1.0.0-develop.8':
-    resolution: {integrity: sha512-Kx8amCMTkZmdUeG82FJIgKmROom0DXNrSa/B+hNqrF9Gq+XqCUfZzv3xBgcfUgoQKO76Cot8QfzYTEUWdc85EA==}
+  '@kurocado-studio/formkit-ui-react-renderer@1.0.0':
+    resolution: {integrity: sha512-R2atYh3/wD6iC+6g3AF/JlDpK4D5jGxXMCGmeaNFnXCJojdIhqhFtJ67HXHrlgJscMY2rzdXI7shNZXTmlpahQ==}
 
   '@kurocado-studio/styleguide@2.6.0-develop.10':
     resolution: {integrity: sha512-1Jx81ozwrh9wKxpHUA1Ox+8mH8eLaK8PkPjpafeNUiPgkNmqkjvQhkFkRgpDOE8l177omGL4J7GF0pKwP0M4vQ==}
@@ -7080,7 +7080,7 @@ snapshots:
     dependencies:
       uuid: 13.0.0
 
-  '@kurocado-studio/formkit-ui-react-renderer@1.0.0-develop.8(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)':
+  '@kurocado-studio/formkit-ui-react-renderer@1.0.0(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)':
     dependencies:
       '@kurocado-studio/axios-react': 1.0.2(typescript@5.9.3)
       '@kurocado-studio/systemhaus-react': 1.1.0-develop.12(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
@@ -9317,7 +9317,7 @@ snapshots:
       '@vue/reactivity': 3.5.24
       '@vue/runtime-core': 3.5.24
       '@vue/shared': 3.5.24
-      csstype: 3.2.0
+      csstype: 3.2.3
 
   '@vue/server-renderer@3.5.24(vue@3.5.24(typescript@5.9.3))':
     dependencies:
