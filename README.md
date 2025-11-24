@@ -29,8 +29,8 @@ forms within React applications.
 
 ### Documentation
 
-- Project Overview: https://kurocado-studio.github.io/html-forms-service/landing.html
+- Project Overview: https://kurocado-studio.github.io/formkit
 
 ### Related Repositories
 
-- Builder Tool: https://github.com/Kurocado-Studio/form-management-ui
+- Builder Tool: https://github.com/Kurocado-Studio/formkit-public
