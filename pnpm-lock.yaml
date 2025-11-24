@@ -15,8 +15,8 @@ importers:
   .:
     dependencies:
       '@kurocado-studio/formkit-ui-models':
-        specifier: 1.0.0-develop.2
-        version: 1.0.0-develop.2
+        specifier: 1.0.0
+        version: 1.0.0
       '@kurocado-studio/formkit-ui-react-renderer':
         specifier: 1.0.0
         version: 1.0.0(react-dom@19.0.0(react@19.0.0))(tailwindcss@4.1.17)(typescript@5.9.3)
@@ -722,8 +722,8 @@ packages:
   '@kurocado-studio/axios-react@1.1.2-develop.1':
     resolution: {integrity: sha512-ihhsCdowFwzc+Xkjr5wPZ52RR8Uln+lnsBMYUk7rQa8Rp90/t4M4nO8vPv5wWouElmyqQoBsiDZAdQqnwbQsqQ==}
 
-  '@kurocado-studio/formkit-ui-models@1.0.0-develop.2':
-    resolution: {integrity: sha512-px0UC51nLRR5dTvlXZzQOFSVZL46PzmQWN5Wji+4sQJ4NwkMxXgVHvScGrCWg82+9oKnqCkSK5j6g2VidJnHQg==}
+  '@kurocado-studio/formkit-ui-models@1.0.0':
+    resolution: {integrity: sha512-rpPnsHb61o3gbaJEodkeckVVCQl1JA2SW12RYOw80uiEnjy1QN1BNbDYlkoTSTT4Mtm2CrQZ20x7a5YLLV8Ccg==}
 
   '@kurocado-studio/formkit-ui-react-renderer@1.0.0':
     resolution: {integrity: sha512-R2atYh3/wD6iC+6g3AF/JlDpK4D5jGxXMCGmeaNFnXCJojdIhqhFtJ67HXHrlgJscMY2rzdXI7shNZXTmlpahQ==}
@@ -7076,7 +7076,7 @@ snapshots:
       - debug
       - typescript
 
-  '@kurocado-studio/formkit-ui-models@1.0.0-develop.2':
+  '@kurocado-studio/formkit-ui-models@1.0.0':
     dependencies:
       uuid: 13.0.0
 
