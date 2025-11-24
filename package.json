@@ -20,7 +20,9 @@
     "setup": "pnpm clean && pnpm i && pnpm build"
   },
   "lint-staged": {
-    "*": ["pnpm run prettier-fix"],
+    "*": [
+      "pnpm run prettier-fix"
+    ],
     "**/*.{ts,tsx}": [
       "pnpm run prettier-fix",
       "pnpm run eslint-fix",
@@ -29,7 +31,7 @@
   },
   "dependencies": {
     "@kurocado-studio/formkit-ui-models": "1.0.0",
-    "@kurocado-studio/formkit-ui-react-renderer": "1.0.0",
+    "@kurocado-studio/formkit-ui-react-renderer": "1.0.1-develop.1",
     "@kurocado-studio/systemhaus-motion-react": "1.0.0-develop.10",
     "@kurocado-studio/systemhaus-react": "1.1.0-develop.13",
     "axios": "^1.13.2",
@@ -80,6 +82,8 @@
     "rollup": "4.52.0"
   },
   "eslintConfig": {
-    "extends": ["plugin:storybook/recommended"]
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
   }
 }
